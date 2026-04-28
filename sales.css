@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#ffffff, beige, ivory);
+    max-width: 900rem;
+    max-height: 30rem;
+}
+
+
+
+.header{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-family: 'inter' sans-serif;
+    /* font-size: large; */
+    font-weight: 600;
+    color: #555;
+}
+
+.cta-visit{
+    text-align: center;
+    color: #555;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+}
+
+.buy-button{
+    padding: 8px 100px 8px 100px;
+    transition: transform 0.3 ease;
+    background-color: #22c552;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.buy-button:hover{
+    transform: scale(1.05);
+    color: beige;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(to bottom, beige, rgb(219, 210, 210));
+    display: block;
+    text-align: start;
+    /* border: 2px solid black; */
+    margin: 20px 40px 0px 40px;
+    padding: 2px 5px 2px 5px;
+    /* font-weight: 400; */
+    font-size: 48px;
+    font-family: 'inter' sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+
+
+#mantra{
+    background: linear-gradient(to left, #ffffff, beige,  rgb(219, 210, 210));
+    color: #555;
+    transition: transform 0.2s ease;
+}
+
+#mantra:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a{
+    /* background: beige; */
+    margin: 5px;
+    padding: 8px;
+    border: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    /* color: #555; */
+}
+
+a:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #555;
+}
